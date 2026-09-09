@@ -1,0 +1,9 @@
+/build
+/build-*
+/data
+/ini/*
+!/ini/README.md
+/Testing
+/.venv/
+__pycache__/
+*.pyc
