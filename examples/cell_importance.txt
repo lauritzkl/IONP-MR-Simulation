@@ -1,0 +1,38 @@
+# Synthetic single-cell FID example with overlapping importance proposals.
+# The central IONP is intracellular; the other two are extracellular.
+# Automatic MIS weights account for overlap with the uniform proposal.
+IONP_radius = 2.5e-7
+IONP_radius_std = 0
+IONP_num = 0
+IONP_position_file = positions.txt
+Coating = 0
+Coating_D = 0
+Coating_permeability = 1
+Agg_radius = 0
+Agg_num = 0
+Cell Origin = 0 0 0
+Cell_radius = 1e-6
+Cell_num = 1
+Cell_D = 1e-9
+Cell_permeability = 0.5
+Cell_hist = No
+Conc = 0
+Conc_ext = 0
+Proton_num = 128
+Bound_Prot_n = 0
+T_E = 1e-4
+T2_out = 0.05
+T2_in = 0.03
+Length = 1.2e-5
+time_step = 1e-6
+variable_Time = No
+Surrounding_voxels = No
+Nodes = 12
+Threads = 1
+BFieldSolver = Current
+Sequence = FID
+ImportanceSampling = Yes
+IS_cell_near_cutoff = 3e-6
+IS_protons_uniform = 64
+IS_protons_cell_inside = 32
+IS_protons_cell_near = 32

@@ -1,0 +1,472 @@
+{
+  "format_version": 1,
+  "project": "IONP-MR-Simulation",
+  "version": "0.0.1",
+  "files": [
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "bytes": 1000,
+      "sha256": "b974ceaaaf14a54257ecfd13d3a01d0ff2102077524ea8d91d55f19a6a4b3dee"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 3174,
+      "sha256": "ef3dd94829c7b1974e3b1dc913024a675c73975cbb0df8aa6c27bedf0c11ac0e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 81,
+      "sha256": "fe4d4f71739a2b203e6a61bf31970fa7b309e7091550101696c1ef93c0815d6e"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "bytes": 2821,
+      "sha256": "d75429630e015e65a45ac156a9f70cf2dc5f854577f253da5cb02d9bb57fbe2e"
+    },
+    {
+      "path": "CMakePresets.json",
+      "bytes": 7733,
+      "sha256": "2c4d5cd4e3ddfb3edad64a13b37b426d64f9b83719acc2a97d966fb696cd711e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1073,
+      "sha256": "6aa0753e6bb3bfcf08e432b06ce1ef9a23654f38fd1e42206b2b83122f9153a4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9469,
+      "sha256": "8f5669413a4e9d0a84ad99e281fdf62065874c2739cd77228df873e60e4138ac"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 991,
+      "sha256": "730d03dc0dfed485eba02671be63f2dd4a13dd3ad16cb13db0d07198d89fa469"
+    },
+    {
+      "path": "cmake/CxxStandardSettings.cmake",
+      "bytes": 674,
+      "sha256": "abb4a614560d244595c0fdcbb5f147263becba0e46b6a37df3fd0c78586136a9"
+    },
+    {
+      "path": "cmake/StandardSettings.cmake",
+      "bytes": 173,
+      "sha256": "d901ab79c4b5a4241fe30a161c98bc5dc4f7d12e7b8719f6f8f9ebabc653af62"
+    },
+    {
+      "path": "cmake/UnixSpecials.cmake",
+      "bytes": 188,
+      "sha256": "ddb19539a8504c069f67fb4006a733132ee7a3e27f92a81abf8e299bfbd45bcf"
+    },
+    {
+      "path": "configured_files/CMakeLists.txt",
+      "bytes": 268,
+      "sha256": "b297bbc7295c9c583f8f29411449382868c8d349db1b7a58e599e08b14575f02"
+    },
+    {
+      "path": "configured_files/config.hpp.in",
+      "bytes": 907,
+      "sha256": "5c16e91e0a4a562c7c48ba473ae41b345171d388fae0660510dcab76417cfd47"
+    },
+    {
+      "path": "docs/publication.md",
+      "bytes": 4645,
+      "sha256": "b3954767135a5e2d79126762e353c9f3932bb7c953dd54b344276fec855dd7d1"
+    },
+    {
+      "path": "docs/release-validation.md",
+      "bytes": 7896,
+      "sha256": "226b44e637a2ca3f2246b4dba72e35ec1089b4177afc038cdb0fcdf66d341460"
+    },
+    {
+      "path": "docs/simulations.md",
+      "bytes": 53019,
+      "sha256": "5c984afd0e2f9fd1d5a773bba0c725a28874e60f2ef5d8619f3c129c5630038c"
+    },
+    {
+      "path": "docs/source-guide.md",
+      "bytes": 11323,
+      "sha256": "b75d2047ce99e8bbf293d71a04c46dd1b4fddd0b9db5091c067fed5a63077ffe"
+    },
+    {
+      "path": "examples/IONP_pos/positions.txt",
+      "bytes": 25,
+      "sha256": "44127a4f8765841ef01414b28904238bb07908ba8d40ae51044bf39b9e5f356e"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 5341,
+      "sha256": "752df1bcb77eea1f9ddd9f766c5053165e446cbc25126e0e0305af2083b70a47"
+    },
+    {
+      "path": "examples/cell_importance.txt",
+      "bytes": 849,
+      "sha256": "a282284d8726675facf825372afd6db3291e0e71cddcc5df98f35599adc7dafc"
+    },
+    {
+      "path": "examples/fid.txt",
+      "bytes": 584,
+      "sha256": "f2422f1a11259b3d0fb0b7d52c0973f2e7ddb789ba86650c2fdb479abd70ac7b"
+    },
+    {
+      "path": "examples/mse.txt",
+      "bytes": 739,
+      "sha256": "b6b7b91f6f92ee17c70ca4f913d4139ef6f8285c6a85e288abbb9ebe6b3fdd09"
+    },
+    {
+      "path": "examples/se.txt",
+      "bytes": 611,
+      "sha256": "f8fa19e2e56caaaf81bf3c4d4faa843d177ec480c2caf66755c8ac624e5b7951"
+    },
+    {
+      "path": "external/csv-parser/csv.hpp",
+      "bytes": 286066,
+      "sha256": "2245eaa1681ae0c3ae1ba510a1237c03ebe67994f49db583e11ea3434c295938"
+    },
+    {
+      "path": "include/argparsewrapper.h",
+      "bytes": 300,
+      "sha256": "2414b117ebff5f01034bb3635834bdcc08821d929e28ec8275a6f15c333e3ce3"
+    },
+    {
+      "path": "include/csvparserwrapper.h",
+      "bytes": 372,
+      "sha256": "7c3e993a17ca583977879d6d37e2248034d2af86fa8c6ea8a53cc8977a362636"
+    },
+    {
+      "path": "include/eigenparsewrapper.h",
+      "bytes": 264,
+      "sha256": "d868a327fcd3b9108479d4b9875a80e35d68161ceaed4c48bf0fb8d064736507"
+    },
+    {
+      "path": "include/mptmacros.h",
+      "bytes": 3188,
+      "sha256": "69eceaa4e32fba558f4b20799a68341b18e729d8b3331bfe3096313d858bed0f"
+    },
+    {
+      "path": "ini/README.md",
+      "bytes": 664,
+      "sha256": "aa2044bab8ea62ff8f3706b762fe9897247382397c509c169fd7d329e1de8d7b"
+    },
+    {
+      "path": "publication-files.txt",
+      "bytes": 2820,
+      "sha256": "54811745e5d6b49345fa640e5e2853f8ae5b226dfc744aa4c49059874d6e82d8"
+    },
+    {
+      "path": "requirements-plotting.txt",
+      "bytes": 72,
+      "sha256": "df73ba4cfed881120db0e028b2ab06c4495b1cd5045ab6d9e827b6463d570478"
+    },
+    {
+      "path": "src/CMakeLists.txt",
+      "bytes": 25,
+      "sha256": "54c21c2567b1aa77001b772b4c4c36c53df1efea8d8ffddc13bfbc7a6fd28052"
+    },
+    {
+      "path": "src/ionp/Aggregate.cpp",
+      "bytes": 477,
+      "sha256": "2bf21df0bcb5ebc3715df5240549fad5d5d7c7a01568f64d8ec96b29e56f06ca"
+    },
+    {
+      "path": "src/ionp/Aggregate.hpp",
+      "bytes": 1988,
+      "sha256": "25008814147a435a97dbaabe0685897f315494c14878303374e3e260d6477287"
+    },
+    {
+      "path": "src/ionp/BFieldSolver.hpp",
+      "bytes": 525,
+      "sha256": "c1d1f5928e650f685866ad8bb5cce2648ef647a44f5c9a3c4a9713d09d8a3104"
+    },
+    {
+      "path": "src/ionp/CMakeLists.txt",
+      "bytes": 754,
+      "sha256": "9c641aaeb5daa76743b20e2020efaa378bb151ff02a92e4b6bbc3f43ce21b442"
+    },
+    {
+      "path": "src/ionp/CorrectedHybridField.cpp",
+      "bytes": 11342,
+      "sha256": "7b452ef1e42b4e895c8f6b427a4aa80a667e2aa2391cd8aa12481c96d35dca50"
+    },
+    {
+      "path": "src/ionp/CorrectedHybridField.hpp",
+      "bytes": 2377,
+      "sha256": "42978a346145ffc752bf599070be055548ceff6b65d98f2f075d70416cb9a45d"
+    },
+    {
+      "path": "src/ionp/Data.cpp",
+      "bytes": 79151,
+      "sha256": "2c85f9179e1d7241e19089bca3a36d1f213aa544549d0145722871685d847df4"
+    },
+    {
+      "path": "src/ionp/Data.hpp",
+      "bytes": 9626,
+      "sha256": "2179b9cfae33bd5dbff85e1089c33e0b9e6b88c0a41c21f0ebe06e171de006f0"
+    },
+    {
+      "path": "src/ionp/ImportanceSampling.cpp",
+      "bytes": 61523,
+      "sha256": "afeb75cb1a51021bc79d7de5faffbe228b8a35d2521a01bbf6b63c150c4427a4"
+    },
+    {
+      "path": "src/ionp/ImportanceSampling.hpp",
+      "bytes": 14450,
+      "sha256": "a74db51798f205a1c86bc52952467f7e4a96d1d46fc01fd368efc334093fba0d"
+    },
+    {
+      "path": "src/ionp/Ionp.cpp",
+      "bytes": 486,
+      "sha256": "466bff5c6d8c4e737dd9858065df8e4b78daf4a56ac7094dc42b38b0761d719f"
+    },
+    {
+      "path": "src/ionp/Ionp.hpp",
+      "bytes": 2318,
+      "sha256": "dc3c8352bca19027b006a7f5d394b4fdad858e01d3959673d7fd1bbc57128051"
+    },
+    {
+      "path": "src/ionp/MRsequence.cpp",
+      "bytes": 157956,
+      "sha256": "111fc870cb89cca43fa785827bddd59590b46a49268063bf142d531264481129"
+    },
+    {
+      "path": "src/ionp/MRsequence.hpp",
+      "bytes": 13403,
+      "sha256": "9e01695fe3ca77843300e315d15d885b6d033bb242cc654a8fa5d6fb8b7819f1"
+    },
+    {
+      "path": "src/ionp/OutputUtils.hpp",
+      "bytes": 1172,
+      "sha256": "a3de42b6d0037999683d6822edf13f8c957ca24a3ee7c621edec6fc88ba65332"
+    },
+    {
+      "path": "src/ionp/Particle.cpp",
+      "bytes": 6266,
+      "sha256": "859427964692b58838f865ff2b41af7f6fe50fb0a36f5990917d10cf2b833f6d"
+    },
+    {
+      "path": "src/ionp/Particle.hpp",
+      "bytes": 3809,
+      "sha256": "9663d4585cd8b9a3536c1b6e9e830050b42104a8e8f390f0beb3dfd06d85a7f9"
+    },
+    {
+      "path": "src/ionp/Point3D.cpp",
+      "bytes": 2532,
+      "sha256": "23e15ddf40fc348ccc64ac7263cd3b4989d0a6a2551da892629f0de15685133e"
+    },
+    {
+      "path": "src/ionp/Point3D.hpp",
+      "bytes": 2934,
+      "sha256": "6e7114e112e50099389a718523736b96105b901e3581ce01cb52f438059113ca"
+    },
+    {
+      "path": "src/ionp/Proton.cpp",
+      "bytes": 449,
+      "sha256": "c3ecf5eeff7552004f1be774dbc11a29f38ffd9bb2d44e7135897069804f4c58"
+    },
+    {
+      "path": "src/ionp/Proton.hpp",
+      "bytes": 1702,
+      "sha256": "1375730681ed1abe882d41afff1debf4738f5b230599121e1b1ca5c03b3cfbf5"
+    },
+    {
+      "path": "src/ionp/RandNumberBetween.hpp",
+      "bytes": 5688,
+      "sha256": "288f37437cfd2f54d3e6c68b3ae26030b9b4e3a7d5af221ea1bd9ccb61a04e5b"
+    },
+    {
+      "path": "src/ionp/RandomList.cpp",
+      "bytes": 1251,
+      "sha256": "75cca49fbbaaeb3d150b458c4bef12fe8b94bf3ab01fbdb252054b639294bbf6"
+    },
+    {
+      "path": "src/ionp/RandomList.hpp",
+      "bytes": 1010,
+      "sha256": "529826b9456340541e5035ae74ff97b1ae0ebe9c64f049d171d533c39554d763"
+    },
+    {
+      "path": "src/ionp/SimMatrix.cpp",
+      "bytes": 12128,
+      "sha256": "026a7019b716faaae0ef61e440e4400bb9545487c71a3057395fb45dea313b0c"
+    },
+    {
+      "path": "src/ionp/SimMatrix.hpp",
+      "bytes": 6779,
+      "sha256": "4ff41b41a9582b885d9a0c35eee178368e9b87068c079182ee2584c89533fa67"
+    },
+    {
+      "path": "src/ionp/SimSpace.cpp",
+      "bytes": 70065,
+      "sha256": "3af4c31cfa9f3188c2bd4be8863e2657f0726f306e9877d54d682b11f298c3dd"
+    },
+    {
+      "path": "src/ionp/SimSpace.hpp",
+      "bytes": 4094,
+      "sha256": "c11a207465b24956164c16d633b7b2c3f58f66faddb292c2c93b0142ab7395aa"
+    },
+    {
+      "path": "src/ionp/Vector3D.cpp",
+      "bytes": 3419,
+      "sha256": "02b55711c865e2f852b5ee68573f03e60d2abdc79441313a5bcfe518b2a8aef8"
+    },
+    {
+      "path": "src/ionp/Vector3D.hpp",
+      "bytes": 3133,
+      "sha256": "81a729e9e1395e2c0c3e706240c72f6f6eb09dfe732ff5bf2eba86c0dc27e33e"
+    },
+    {
+      "path": "src/ionp/main.cpp",
+      "bytes": 42812,
+      "sha256": "021c4f5b8b7df9d73fbd21dfdf2c72cdd8ff9dec12dcbe05ac45f38fe8483bd6"
+    },
+    {
+      "path": "src/ionp/profiler.cpp",
+      "bytes": 3006,
+      "sha256": "eb474dc39b889d2b670fa3e2155fd4db8f1d8ac8592fa165c4b197fdbeba281e"
+    },
+    {
+      "path": "src/ionp/profiler.h",
+      "bytes": 1058,
+      "sha256": "e67d06df24c5eccccc2537244b9676b6f676bb447b1f7302e0f1e570c5632358"
+    },
+    {
+      "path": "test/CMakeLists.txt",
+      "bytes": 2315,
+      "sha256": "931930f1262e01b26f68e91166f59e561ffd77b9a9818dea2d512d39f13c9f23"
+    },
+    {
+      "path": "test/basic_parsing.cpp",
+      "bytes": 50430,
+      "sha256": "43c0b7d7e0047f0268cf3ccc30f0d24c7fcc197e2cc814f3e0073a80b3fc696e"
+    },
+    {
+      "path": "test/bfield_solver.cpp",
+      "bytes": 26658,
+      "sha256": "a6b582cb4819246d97d37f9cddd4a068f135469991b54c483845cafcb9f0720a"
+    },
+    {
+      "path": "test/bfield_solver_benchmark.cpp",
+      "bytes": 4292,
+      "sha256": "104bf7aca229173f5adb97f0fe486b458562a3d0f055de7f50dd72c2702a71d4"
+    },
+    {
+      "path": "test/cell_load_radius.cpp",
+      "bytes": 3041,
+      "sha256": "a74cfa9a391bdd96ad85ecc9393fdaef2aae92937afe3e9d961e3293888549f1"
+    },
+    {
+      "path": "test/custom_geometry_selection.cmake",
+      "bytes": 16929,
+      "sha256": "f7c4e14b642f2d159a23e56c430bcabe81dad3fb935b98dc30f67e02fac1c33a"
+    },
+    {
+      "path": "test/elastic_reflection.cpp",
+      "bytes": 1667,
+      "sha256": "3d4d77849ab2fd478a408db4f8b30c1c3656d776e56902991d2c22d47fce07f9"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/IONP_pos/positions.txt",
+      "bytes": 25,
+      "sha256": "44127a4f8765841ef01414b28904238bb07908ba8d40ae51044bf39b9e5f356e"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/cell_fully_permeable.txt",
+      "bytes": 661,
+      "sha256": "3718996c2620c628e877ab83e6b640775c452978a3860dc43c6354f7d85603ef"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/cell_uniform.txt",
+      "bytes": 507,
+      "sha256": "4ca89ac4516a8245d5a6426ac2b1507e44b18d231950f61ee28e3ab6036b918e"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/cell_variable.txt",
+      "bytes": 665,
+      "sha256": "e77ba1ab934ad02da43981438ea49d10a24d0059b80b26a2a4cdbad4c6bc48b4"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/cell_variable_threads4.txt",
+      "bytes": 661,
+      "sha256": "d0544f8c96a6d61b32690f35c25ff6f23b01e8e3f2361bc7ec00c53e48f0136e"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/cube_signal.txt",
+      "bytes": 469,
+      "sha256": "7a232138bc553c44cdf0af8dd1b5eb4389549277c01df6404b485be8159e71ad"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/ionp_bound_static_variable.txt",
+      "bytes": 468,
+      "sha256": "cae0904a523a12063135ea5d1496b0e7e5fad655f1dfea9435aaf9288640f0f8"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/ionp_fixed.txt",
+      "bytes": 431,
+      "sha256": "d5143c0c2d6760c596906938ad8430fe83b4d28d562e69d65eaf5298a4364222"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/ionp_moving.txt",
+      "bytes": 452,
+      "sha256": "7eb52335650c002e10f7f98fae079ce5abe227edb6895d618140cbedd890dbb2"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/ionp_moving_bound.txt",
+      "bytes": 470,
+      "sha256": "fc864cbdc9889286aa5d9db8caa5446409316452be7cd03e035df9e197c8f2f6"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/ionp_moving_bound_threads4.txt",
+      "bytes": 470,
+      "sha256": "5a285b6ca432b3ddfd484d8b174d5c3401dd231a8d4186853b82cfe2a9fb4e39"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/ionp_no_coating.txt",
+      "bytes": 422,
+      "sha256": "e42386d5ed8c75d3a4100a7df62b26b62c2dc94d2cfd89087b6cd1896c0691aa"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/mse.txt",
+      "bytes": 453,
+      "sha256": "5f6281384ee63130234eae07c535e0017b6cf13c5b3361f7b29bf6b4f1629007"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/rng_statistical.txt",
+      "bytes": 670,
+      "sha256": "c071ddf64b02ef00b5b7f457694a8997b1591acc97011af0ac0cd4b982c0794c"
+    },
+    {
+      "path": "test/fixtures/runtime_regression/rng_statistical_threads4.txt",
+      "bytes": 669,
+      "sha256": "ec47590383ea479316432dcd27903cf1f3b2cba64ca9bd5fe49c4ac361d50098"
+    },
+    {
+      "path": "test/importance_sampling.cpp",
+      "bytes": 97550,
+      "sha256": "2de8a9a9472039e71e24931858ea353f39bf19f6076c459b2d15611eb2a971c4"
+    },
+    {
+      "path": "test/publication_examples.py",
+      "bytes": 7519,
+      "sha256": "eb733ea8fcde6c9ebea59567295d62bb88d73008aff9354896fbcdd959d3ddce"
+    },
+    {
+      "path": "test/publication_export.py",
+      "bytes": 3706,
+      "sha256": "d5c59cc3364903c830d815649a994b9e14fb835d59232088a550979f43a2a7dc"
+    },
+    {
+      "path": "tools/plot_bgrid.py",
+      "bytes": 4174,
+      "sha256": "2b7d58b2ea4f62244cec1fd199b7cc2daf69067aec9e7820577abb28a89d8d8b"
+    },
+    {
+      "path": "tools/plot_trajectories.py",
+      "bytes": 3642,
+      "sha256": "4ee78b5b4c8e5cc83f12cb4ca5098189af603071f8f12cb47fd0bfe7c1a7c1eb"
+    },
+    {
+      "path": "tools/prepare_publication.py",
+      "bytes": 5830,
+      "sha256": "7aaa97c4f83b366fc4b1105b4318bc994c2db7fe9ebf18eb904c4b3647d4a727"
+    }
+  ]
+}

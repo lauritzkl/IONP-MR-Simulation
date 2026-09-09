@@ -1,0 +1,27 @@
+# Short deterministic case for uniformly translating IONPs with bound protons.
+IONP_radius = 2.5e-7
+IONP_radius_std = 0
+Coating = 4e-7
+Coating_D = 5e-10
+Coating_permeability = 0.5
+Agg_radius = 0
+Agg_num = 0
+Cell_radius = 0
+Cell_num = 0
+Cell_hist = No
+Conc = 0
+Conc_ext = 0
+IONP_num = 0
+Proton_num = 6
+Bound_Prot_n = 2
+T_E = 2e-5
+T2_out = 0
+T2_in = 0
+Length = 1.2e-5
+time_step = 1e-6
+variable_Time = No
+Nodes = 0
+Threads = 1
+vIONP = 0.05
+Direction = 1 0 0
+Sequence = FID

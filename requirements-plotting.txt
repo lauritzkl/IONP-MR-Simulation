@@ -1,0 +1,3 @@
+# Optional plotting helpers; use Python 3.10 or newer.
+numpy
+matplotlib
